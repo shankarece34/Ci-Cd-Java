@@ -21,8 +21,8 @@
 	<id>DXCREPO</id>
 	<url>http://localhost:8081/nexus/content/repositories/DXC/</url>
   </snapshotRepository>
-  <server>local-nexus</server>
   </distributionManagement>
+  <server>local-nexus</server>
   
   <build>
     <finalName>webapp</finalName>
