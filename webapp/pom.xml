@@ -15,6 +15,15 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
+  
+  <distributionManagement>
+  <snapshotRepository>
+	<id>DXCREPO</id>
+	<url>http://localhost:8081/nexus/content/repositories/DXC/</url>
+  </snapshotRepository>
+  <server>local-nexus</server>
+  </distributionManagement>
+  
   <build>
     <finalName>webapp</finalName>
 	<plugins>
